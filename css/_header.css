@@ -1,0 +1,61 @@
+.header {
+  padding-top: 75px; }
+  .header-logo {
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 37px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    position: relative; }
+    .header-logo:before {
+      content: "";
+      width: 35px;
+      height: 50px;
+      background-image: url("../img/home/fire.png");
+      position: absolute;
+      background-size: 35px 50px;
+      top: -9px;
+      left: -24px; }
+  .header-btn__button {
+    width: 130px;
+    height: 45px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 33px;
+    background-color: #ff5f60;
+    padding: 10px 35px;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400; }
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  list-style-type: none; }
+  ul li a {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 55px; }
+    ul li a:hover {
+      text-decoration: none;
+      color: #ff5f60; }
+    ul li a.button {
+      width: 120px;
+      height: 45px;
+      border-radius: 33px;
+      background-color: #ff5f60;
+      padding: 15px 35px; }
+
+.burger i {
+  background-color: red;
+  color: #292929;
+  font-size: 30px; }
